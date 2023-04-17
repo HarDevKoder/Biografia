@@ -19,9 +19,9 @@ body {
   display: grid;
   gap: 5px;
   grid:
-    "header" 100px
+    "header" 80px
     "main" auto
-    "footer" 100px;
+    "footer" 50px;
 }
 
 .grid-container > * {
@@ -33,6 +33,14 @@ body {
 .header {
   grid-area: header;
   background: DarkKhaki;
+  display: grid;
+  place-items: center;
+  min-width: 230px;
+}
+
+.titulo p{
+  font-weight: bold;
+  font-size: 1.3em;
 }
 
 .main {
