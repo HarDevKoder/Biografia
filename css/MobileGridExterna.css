@@ -1,0 +1,40 @@
+/* GRID CONTENEDOR GENERAL */
+.grid-container {
+  background:azure;
+  min-width: 320px;
+  display: grid;
+  gap: 15px;
+  grid:
+    "header" 80px
+    "main" auto
+    "footer" 80px;
+}
+
+.header {
+  grid-area: header;
+  background: DarkKhaki;
+  padding: 15px;
+}
+
+.header .titulo p{
+  text-align: center;
+}
+
+.main {
+ display: flex;
+ flex-direction: column;
+ align-items: center;justify-content: center;
+ gap: 15px;
+}
+
+.footer {
+  grid-area: footer;
+  background: CornflowerBlue;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+}

@@ -1,0 +1,25 @@
+.mainCard {
+  background:rgb(216, 252, 252);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.mainCard .titulo {
+
+  display: grid;
+  place-items: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.mainCard .imagen img{
+  display: block;
+  width:100%;
+}
+
+.mainCard .texto{
+  text-align: justify;
+  line-height: 25px;
+}
