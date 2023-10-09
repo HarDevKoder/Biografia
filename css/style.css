@@ -46,7 +46,7 @@ body {
   gap: 15px;
 }
 
-.imagenTarjeta{
+.imagenTarjeta {
   flex: 4;
   border-radius: 5px;
 }
@@ -70,10 +70,9 @@ body {
 
 .narrativa {
   flex: 9;
-  /* padding: 0 12px; */
 }
 
-.titulo p{
+.titulo p {
   margin: 0;
   padding: 0;
 }
@@ -85,8 +84,21 @@ body {
 }
 
 @media (max-width: 600px) {
-  body{
-    background: blue;
+  .contenedorGeneral {
+    height: auto;
+    width: 95%;
+    max-width: 98%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .tarjeta {
+    flex-direction: column;
+    flex: 1;
+    border-radius: 5px;
+    padding: 8px;
+    gap: 15px;
   }
 }
-
